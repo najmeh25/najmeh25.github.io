@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            text-align: center;
+        }
+        #search {
+            display: inline-block;
+            padding: 10px;
+            width: 250px;
+            font-size: 16px;
+        }
+        #search-btn {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        #data-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        #data-list li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Recipe API</h1>
+    <input type="text" id="search" placeholder="Search for an ingredient..." />
+    <button id="search-btn">Search</button>
+
+    <ul id="data-list"></ul>
+
+    <script src="index.js"></script>
+</body>
+</html>
