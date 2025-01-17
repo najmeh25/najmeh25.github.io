@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Pizza",
+      "type": "Main Course",
+      "price": 12.99,
+      "ingredients": ["Cheese", "Tomato Sauce", "Pepperoni"],
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Caesar Salad",
+      "type": "Starter",
+      "price": 8.49,
+      "ingredients": ["Lettuce", "Croutons", "Parmesan", "Caesar Dressing"],
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Chocolate Cake",
+      "type": "Dessert",
+      "price": 6.99,
+      "ingredients": ["Cocoa", "Sugar", "Flour", "Butter"],
+      "available": false
+    }
+  ]
